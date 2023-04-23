@@ -1,6 +1,6 @@
 abstract class Bebida{
     private int serie;
-    
+
     public Bebida(int serie){
         this.serie=serie;
     }
@@ -21,7 +21,7 @@ class Sprite extends Bebida{
 
 class CocaCola extends Bebida{
     public CocaCola(int serie){
-        super(serie);  
+        super(serie);
     }
     public String beber(){
         return "cocacola";
